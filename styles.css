@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(237, 212, 212);
+}
+header {
+    background-image: url("top-10-best-coffee-beans.jpg");
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    
+}
+header input {
+    background-color: rgb(113, 22, 22);
+    width: 70%;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    position: sticky;
+    margin-top: 60px;
+}
+.pics {
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.pics h4 {
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.pgs {
+    color: rgb(183, 76, 42);
+    background-color: #D7A1A1;
+    padding: 30px;
+    margin: 55px;
+    border-radius: 10px;
+    border: 2px groove rgb(190, 55, 14);
+    box-shadow: 0px 0px 8px rgb(209, 77, 77);
+}
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 8px 8px black;
+}
+img:hover{
+    height: 170px;
+    width: 170px;
+    overflow-wrap: normal;
+}
