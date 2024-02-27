@@ -10,7 +10,7 @@ header {
     height: 340px;
     display: flex;
     justify-content: center;
-    
+    position: relative;
 }
 header input {
     background-color: rgb(113, 22, 22);
@@ -21,6 +21,7 @@ header input {
     border: none;
     position: sticky;
     margin-top: 60px;
+    top: 0;
 }
 .pics {
     padding: 50px;
